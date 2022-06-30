@@ -1,0 +1,205 @@
+
+/* Padding below the footer and lighter body text */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Light.ttf");
+}
+
+
+body {
+  padding-bottom: 3rem;
+  color: #909090;
+  /* background-color: #f7f7f7; */
+  background-color: #1c1c1c;
+}
+
+.top-phones-contacts {
+    margin-top: 1em;
+}
+
+.capa {
+    width: 100%;
+    height: 18em;
+    position: relative;
+    background-image: linear-gradient(#545454, #1c1c1c);
+}
+
+.capa-bg {
+    width: 100%;
+    height: 18em;
+    position: relative;
+    background-size: cover;
+    background: url('../img/bg.png') no-repeat center;
+}
+
+.em-tx {
+    color: #e0e0e0;
+}
+
+.logo {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+}
+
+.item-content-img-box {
+    margin: auto;
+    align-content: center;
+}
+
+#capa-teste {
+    width: 100%;
+    background: url('../img/loja_interior.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.top-menu {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.top-flag-menu {
+    margin-top: 10px;
+}
+
+.nav-link-item {
+    padding: 10px 15px;
+    /* color: #b3b3b3; */
+    color: gray;
+    font-size: 1.2em;
+}
+
+.nav-link-item:hover {
+    color: white;
+    /* background-color: rgba(174,174,174,0.1); */
+    text-decoration: none;
+}
+
+.map {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+/* Custom Style Title and Subtitle */
+.subtitle {
+    font-size: 0.5em;
+    color: #8c97a1;
+}
+
+.phrase {
+    font-size: 1.5em;
+    font-family: 'Roboto';
+    padding: 15px 0 15px 0;
+    color: #e0e0e0;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+
+.app {
+    margin-top: 3em;
+}
+
+.marketing {
+    margin-top: 7em;
+    margin-bottom: 3em;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette {
+    padding: 2rem 0 0 0;
+}
+
+.featurette-content {
+    margin-top: 1em;
+}
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.item-divider {
+    margin: 5rem 0;
+    background-color: #5a5a5a;
+}
+
+.item-title {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+    font-size: 2.5em;
+    color: #c7c7c7;
+}
+
+.item-subtitle {
+    color: #909090;
+    font-size: 1em;
+}
+
+.item-content {
+
+}
+
+
+/* RESPONSIVE CSS */
+
+@media (min-width: 25em) {
+  .featurette-heading {
+    /* font-size: 60px; */
+    font-size: 2.5em;
+  }
+  .subtitle {
+      font-size: 1.5em;
+  }
+}
+
+@media (min-width: 40em) {
+  .featurette-heading {
+    /* font-size: 50px; */
+    font-size: 3.5em;
+  }
+  .subtitle {
+      font-size: 2em;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    /* margin-top: 6rem; */
+    font-size: 4.5em;
+  }
+  .subtitle {
+      font-size: 2.5em;
+  }
+}
